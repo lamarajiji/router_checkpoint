@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+ @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+ *, *:before, *:after {
+	 box-sizing: border-box;
+}
+
+ a {
+	 text-decoration: none;
+	 color: #5c7fb8;
+}
+ a:hover {
+	 text-decoration: underline;
+}
+ .movie-card {
+	 font: 14px/22px "Lato", Arial, sans-serif;
+	 color: #a9a8a3;
+	 padding: 40px 0;
+}
+ .container {
+	 margin: 0 auto;
+	 width: 780px;
+	 height: 640px;
+	 background: #f0f0ed;
+	 border-radius: 5px;
+	 position: relative;
+}
+ .hero {
+	 height: 342px!important;
+	 
+	 margin: 0!important;
+	 position: relative!important;
+	 overflow: hidden!important;
+	 z-index: 1!important;
+	 border-top-left-radius: 5px!important;
+	 border-top-right-radius: 5px!important;
+}
+ .hero:before {
+	 content: ''!important;
+	 width: 100%!important;
+	 height: 100%!important;
+	 position: absolute!important;
+	 overflow: hidden!important;
+	 top: 0!important;
+	 left: 0!important;
+	 
+	 
+	 z-index: -1;
+	 transform: skewY(-2.2deg);
+	 transform-origin: 0 0;
+}
+ .cover {
+	 position: absolute;
+	 z-index: 2;
+     top: 400px;
+	 left: 40px;
+     display: inline-block;
+  padding: .65rem 1.5rem;
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: remy(1px);
+  text-transform: uppercase;
+  color: #fff;
+  background: #c62828;
+  border: 0;
+  border-radius: remy(35px);
+  box-shadow:  0 10px 20px rgba(0, 0, 0, .19),
+  0 6px 6px rgba(0, 0, 0, .23);
+ }
+  
+  
+  
+  .cover:hover {
+    color: #fff;
+    background: lighten(#c62828, 13%);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25),
+    0 10px 10px rgba(0, 0, 0, .22);
+  }
+
+
+ .details {
+	 padding: 190px 0 0 280px;
+}
+ .details .title1 {
+	 color: #007bff;
+	 font-size: 44px;
+	 margin-bottom: 13px;
+	 position: relative;
+}
+ .details .title1 span {
+	 position: absolute;
+	 top: 3px;
+	 margin-left: 12px;
+	 background: #c4af3d;
+	 border-radius: 5px;
+	 color: #544c21;
+	 font-size: 14px;
+	 padding: 0px 4px;
+}
+ .details .title2 {
+	 color: #c7c1ba;
+	 font-size: 23px;
+	 font-weight: 300;
+	 margin-bottom: 15px;
+}
+ .details .likes {
+	 margin-left: 24px;
+}
+ .details .likes:before {
+	 content: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/icon_like.png");
+	 position: relative;
+	 top: 2px;
+	 padding-right: 7px;
+}
+ .description {
+	 bottom: 0px;
+	 height: 200px;
+	 font-size: 16px;
+	 line-height: 26px;
+	 color: #b1b0ac;
+}
+ .column1 {
+	 padding-left: 50px;
+	 padding-top: 120px;
+	 width: 220px;
+	 float: left;
+	 text-align: center;
+}
+ .tag {
+	 background: white;
+	 border-radius: 10px;
+	 padding: 3px 8px;
+	 font-size: 14px;
+	 margin-right: 4px;
+	 line-height: 35px;
+	 cursor: pointer;
+}
+ .tag:hover {
+	 background: #ddd;
+}
+ .column2 {
+	 padding-left: 41px;
+	 padding-top: 30px;
+	 margin-left: 20px;
+	 width: 480px;
+	 float: left;
+}
+ .avatars {
+	 margin-top: 23px;
+}
+ .avatars img {
+	 cursor: pointer;
+}
+ .avatars img:hover {
+	 opacity: 0.6;
+}
+ .avatars a:hover {
+	 text-decoration: none;
+}
+ fieldset, label {
+	 margin: 0;
+	 padding: 0;
+}
+
+
+ 

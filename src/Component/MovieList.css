@@ -1,0 +1,8 @@
+ .liste
+{
+display: flex;
+flex-wrap: wrap;
+justify-content:space-evenly;
+align-content: center;
+
+}
